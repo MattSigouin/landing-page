@@ -1,0 +1,17 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+h3 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8
+}
+
