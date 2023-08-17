@@ -1,17 +1,92 @@
 body {
     height: 100vh;
-    margin: 0;
+    margin: 0px;
     font-family: Roboto, sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    
+    
 }
 
-.header, .footer {
+.header, .footer, .hero {
     background-color: #1F2937;
     color: white;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    padding: 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+}
+
+
 h3 {
     font-size: 48px;
     font-weight: bold;
-    color: #f9faf8
+    color: #f9faf8;
+    padding: 0px;
+    margin: 0px;
 }
 
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    display: flex;
+    font-weight: lighter;
+}
+
+.thor {
+    display: flex;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.signup {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 100px;
+}
+
+.bottom {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+}
